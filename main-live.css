@@ -1,0 +1,264 @@
+/* page */
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+body {
+  background-color: #666699;
+  font-family: Century;
+}
+
+
+/* text */
+h1 {
+  color:blanchedalmond;
+  text-align: left;
+}
+h2 {
+  color:rgb(139, 110, 66);
+text-align: left;
+}
+p {
+  color: #fff;
+      text-align: left;
+}
+
+
+/* header */
+nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+.logo img:hover {
+  cursor: pointer;
+}
+section {
+  align-content: center;
+}
+
+
+/* home page content */
+img {
+  border: 5px solid #fff;
+  border-radius: 10px;
+  }
+
+.content-info {
+  align-self: center;
+  margin-right: 5rem;
+}
+
+.content {
+  margin-top: 3rem;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(20, 20, 20, 0.5);
+  align-content: flex-start;
+}
+.row {
+  text-align: justify;
+}
+.row:hover {
+  background-color: #444;
+  border-radius: 2rem;
+}
+
+
+/* contact us */
+#contact-info {
+  margin-top: 3rem;
+}
+#contact-info p {
+  text-align: center;
+  padding: 0;
+}
+#contact-info a {
+  color: #fff;
+  text-decoration: none;
+}
+#contact-info a:hover {
+  color: #280757;
+  text-decoration: underline;
+}
+.social-icons {
+  padding-top: 5px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  align-content: space-between;
+}
+
+
+/* buttons */
+.button-list { color: white;
+  text-align: center;
+  list-style: none;
+}
+button { color: white; 
+background-color:#400752;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+button:hover {
+background-color: #444;
+}
+button a:hover {
+  color: #fff;
+}
+
+
+/* about us */
+#abouts {
+  padding-top: 5rem;
+}
+
+
+
+/* service page content */
+#services {
+  margin-top: 3rem;
+}
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.service-list li {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+.service-list li:hover {
+  background-color: #444;
+}
+
+
+/* gallery page content */
+#gallery-gallery {
+  margin-top: 2rem;
+}
+.gallery {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+
+/* footer */
+footer {
+background-color: #400752;
+color: #fff;;
+text-align: center;
+width: 100%;
+position: fixed;
+padding: 50px 0 30px;
+border-top-left-radius: 15%;
+border-top-right-radius: 15%;
+width: 99.99%;
+position: absolute;
+padding: 50px 0 30px;
+border-top-left-radius: 125px;
+border-top-right-radius: 125px;
+font-size: 13px;
+line-height: 20px;
+margin-top: 7rem;
+}
+footer p {
+  text-align:center;
+  font-weight: 600;
+}
+/* Small Devices (Phones) */
+@media (max-width: 600px) {
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+  }
+
+  .button-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content, .gallery {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  h1, h2, p {
+    text-align: center;
+  }
+
+  .service-list li {
+    font-size: 14px;
+  }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .logo img {
+    width: 120px;
+    height: 120px;
+    margin-left: 2rem;
+  }
+
+  .button-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .content, .gallery {
+    padding: 15px;
+    margin: 20px;
+  }
+}
+
+/* Large Devices (Laptops and Desktops) */
+@media (min-width: 1025px) {
+  .content, .gallery {
+    padding: 20px;
+    margin: 40px;
+  }
+
+  .button-list {
+    justify-content: space-evenly;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+  
